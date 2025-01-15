@@ -5,4 +5,34 @@
 
 >cd github
 
-a
+> mkdir apppro_test
+
+> cd apppro_test
+
+> notepad test.txt
+
+>git config --global user.email "syanosyano@gmail.com"
+
+>git config --global user.name "yanoshouhei"
+
+>git add test.txt
+
+>git commit -m "はじめてのプッシュ"
+
+>git remote add origin  https://github.com/yanoshouhei/apppro_test.git
+
+>git push --set-upstream origin master
+
+現れた画面で　TOKENを入力
+
+github上に test.txtが追記されている
+
+2回目のpushするときは
+
+> git add test.txt
+
+> git commit -m "２回目のpush"
+
+＞git push
+
+でできる。
